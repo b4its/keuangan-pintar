@@ -11,7 +11,7 @@ make sure your web server is active
 ```bash
 composer install
 ```
-- second setup environtment
+- second setup environtment<br>
 <b>.env.example</b> file rename to <b>.env</b>
 -   generate key
 ```bash
