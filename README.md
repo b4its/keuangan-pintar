@@ -1,3 +1,41 @@
+## Keuangan Pintar
+Smart Finance app is designed to effectively manage your finances and predict the future health of your business, optimizing your business performance.
+
+### Requirements
+-   Composer 2.5.x +
+-   PHP 8.3.X +
+
+### Run this app at your'e environtment
+make sure your web server is active
+- first install
+```bash
+composer install
+```
+- second setup environtment
+    -   <b>.env.example</b> file rename to <b>.env</b>
+-   generate key
+```bash
+php artisan key:generate
+```
+-  migrate the database
+```bash
+php artisan migrate
+```
+-   run app
+    local
+    ```bash
+    php artisan runserver
+    ```
+    ip network
+    ```bash
+    php artisan runserver --host=0.0.0.0 --port=8000
+    ```
+
+
+
+
+     
+
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 
 <p align="center">
@@ -21,8 +59,6 @@ Laravel is a web application framework with expressive, elegant syntax. We belie
 
 Laravel is accessible, powerful, and provides tools required for large, robust applications.
 
-## Keuangan Pintar
-Smart Finance app is designed to effectively manage your finances and predict the future health of your business, optimizing your business performance.
 
 ## License
 - The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
