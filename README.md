@@ -3,7 +3,7 @@ Smart Finance app is designed to effectively manage your finances and predict th
 
 ### Requirements
 -   Composer 2.5.x +
--   PHP 8.3.X +
+-   PHP 8.3.x +
 
 ### Run this app at your'e environtment
 make sure your web server is active
