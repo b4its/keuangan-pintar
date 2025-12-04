@@ -2,6 +2,7 @@
 Smart Finance app is designed to effectively manage your finances and predict the future health of your business, optimizing your business performance.
 
 ### Requirements
+-    Laravel 12.x
 -   Composer 2.5.x +
 -   PHP 8.3.x +
 
