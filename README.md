@@ -7,12 +7,12 @@ Smart Finance app is designed to effectively manage your finances and predict th
 
 ### Run this app at your'e environtment
 make sure your web server is active
-- first install
+- first install packages
 ```bash
 composer install
 ```
 - second setup environtment
-    -   <b>.env.example</b> file rename to <b>.env</b>
+<b>.env.example</b> file rename to <b>.env</b>
 -   generate key
 ```bash
 php artisan key:generate
@@ -21,7 +21,7 @@ php artisan key:generate
 ```bash
 php artisan migrate
 ```
--   run app
+-   run app<br>
     local
     ```bash
     php artisan runserver
