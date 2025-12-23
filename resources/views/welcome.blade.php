@@ -40,7 +40,7 @@
                         tujuan
                     </p>
 
-                    <a href="{{ route('login') }}"
+                    <a href="{{ route('auth') }}"
                         class="inline-flex items-center justify-center
                                                                     bg-gradient-to-r from-[#A5D836] to-[#209E43]
                                                                     hover:from-[#B1E442] hover:to-[#2AAF4F]
@@ -186,7 +186,7 @@
                         </div>
                         <p class="text-[#003344] font-medium mb-8">Perbulan</p>
 
-                        <a href="{{ route('register') }}"
+                        <a href="{{ route('auth') }}"
                             class="inline-flex items-center justify-center bg-gradient-to-r from-[#A5D836] to-[#209E43] hover:from-[#B1E442] hover:to-[#2AAF4F] text-white font-bold text-[17px] py-3.5 px-12 rounded-full shadow-[0_10px_25px_rgba(32,158,67,0.35)] transition-all duration-300 transform hover:-translate-y-1">
                             Daftar
                             <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 ml-2" fill="none" viewBox="0 0 24 24"
@@ -378,7 +378,7 @@
                         <li><a href="#fitur-yang-didapat"
                                 class="hover:text-[#A5D836] transition-colors duration-300 flex items-center gap-2"><span
                                     class="text-[#A5D836] text-xs">➤</span> Fitur</a></li>
-                        <li><a href="{{ route('login') }}"
+                        <li><a href="{{ route('auth') }}"
                                 class="hover:text-[#A5D836] transition-colors duration-300 flex items-center gap-2"><span
                                     class="text-[#A5D836] text-xs">➤</span> Login / Register</a></li>
                     </ul>

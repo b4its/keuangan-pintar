@@ -20,7 +20,7 @@
             </div>
 
             <div class="hidden md:flex items-center">
-                <a href="{{ route('login') }}"
+                <a href="{{ route('auth') }}"
                     class="inline-flex items-center bg-gradient-to-r from-[#A5D836] to-[#209E43] hover:from-[#B1E442] hover:to-[#2AAF4F] text-white font-bold text-[14px] py-3 px-10 rounded-full shadow-[0_10px_25px_rgba(32,158,67,0.3)] transition-all duration-300 transform hover:-translate-y-0.5">
                     Login
                 </a>
